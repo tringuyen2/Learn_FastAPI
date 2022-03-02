@@ -1,3 +1,9 @@
+"""
+- Khởi tạo 2 table database và các cột tại mỗi bảng
+- Liên kết 2 bảng với nhau
+"""
+
+
 from sqlalchemy import Column, Integer, String
 from sqlalchemy.orm import relation, relationship
 from sqlalchemy.sql.schema import ForeignKey

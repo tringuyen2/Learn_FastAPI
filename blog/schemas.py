@@ -1,3 +1,8 @@
+"""
+- Khởi tạo các class là dạng của 1 số biến trong project
+"""
+
+
 from typing import List, Optional
 from fastapi.param_functions import Body
 from pydantic import BaseModel
